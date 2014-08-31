@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+  	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="text-center">Rock, Paper, Scissors</h1>
+
+				<section class="row border">	
+
+					<section class="col-sm-2">
+						<div class="tourney-select">
+					        <p>Choose Tournament Length</p>
+					        <select id="tourney-num" class="form-control">
+					            <option value="">Select Series</option>
+					            <option value="4">Best of 3</option>
+					            <option value="6">Best of 5</option>
+					            <option value="8">Best of 7</option>
+					        </select>		    
+						</div>	
+
+						<br />
+
+						<div>
+							<p class="play btn btn-primary btn-lrg">Play <span></span></p>
+						</div>
+						
+						
+					</section>
+
+					<section class="col-sm-8 rps-field">
+						<ul class="scoreboard text-center"><h2>Scoreboard</h2>
+						    <li>
+						        Player<span class="score player-score"> 0</span>
+						    </li>
+						    <li>
+						        CPU<span class="score CPU-score"> 0</span>
+						    </li>
+						</ul>
+
+						<div class="row">
+							<div class="col-sm-6">
+								<p id="player"></p>
+							</div>
+						   		    
+						    <div class="col-sm-6">
+						    	<p id="CPU"></p>
+						    </div>
+						</div>
+					</section>
+
+					<section class="col-sm-2">
+						
+						<ul class="rounds"><h2>Rounds</h2></ul>
+						
+					</section>
+					
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

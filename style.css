@@ -1,0 +1,63 @@
+.rpc-title {
+    color: blue;
+}
+
+.scoreboard {
+	position: relative;
+	
+	
+}
+.scoreboard li{
+    display: inline;
+    font-size: 20px;
+    background-color: yellow;
+}
+.score {
+     color: red;
+    font-size: 30px;
+}
+.right {
+    float: right;
+}
+.rounds li {
+    font-size: 20px;
+    list-style: none;
+}
+.player-win {
+     color: green;
+    font-size: 22px;
+}
+
+.inline li, .inline {
+	display: inline;
+}
+
+.rps-field {
+	border: 2px solid gray;
+	min-height: 300px !important;
+	background-color: gray;
+}
+
+.rps-buttons {
+	margin: 0 auto;
+}
+
+.play-image {
+	position: relative;
+	left: 50px;
+	top: 20px;
+	max-width: 150px;
+	display: inline-block !important;
+}
+
+#player, #CPU {	
+	min-height: 200px;	
+}
+
+#player {
+	background-color: red;
+}
+
+#CPU {
+	background-color: blue;
+}
